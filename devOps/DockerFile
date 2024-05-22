@@ -15,3 +15,5 @@ ENV NAME World
 
 #Run command to start the application 
 CMD ["python3", "app.py"]
+
+#for base image you can even add the pyhton-buster image to bypass the loading of ubuntu image
